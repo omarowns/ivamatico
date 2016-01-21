@@ -6,7 +6,7 @@ function configRoute($stateProvider) {
     $stateProvider
         .state('root', {
             url: '/',
-            templateUrl: 'app/layout/layout.html',
+            template: require('./layout.html'),
             controller: 'LayoutController',
             controllerAs: 'vm'
         });
