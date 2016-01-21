@@ -31,7 +31,7 @@ gulp.task('browserify', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('app/**/*.js', ['stringify']);
+    gulp.watch('app/**/*.js', ['browserify']);
 });
 
 gulp.task('default', ['connect', 'watch']);
