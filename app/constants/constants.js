@@ -6,8 +6,8 @@ var CONSTANTS = {
     HEADER_SUBTITLE: 'Calcula o desgloza el IVA',
     IVA: 0.16,
     TABS: [
-        {state: 'root.calcular', text: 'Calcular IVA'},
-        {state: 'root.desglosar', text: 'Desglosar IVA'},
+        {state: 'layout.calcular', text: 'Calcular IVA'},
+        {state: 'layout.desglosar', text: 'Desglosar IVA'},
     ]
 }
 
