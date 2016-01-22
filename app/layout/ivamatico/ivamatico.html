@@ -1,0 +1,19 @@
+<section class="input">
+    <form>
+        <input type="number" min="0" placeholder="Ingrese el importe" ng-model="ivamaticoVM.input" ng-change="ivamaticoVM.change()"/>
+    </form>
+</section>
+<section class="result">
+    <div>
+        <div>Importe</div>
+        <div><span ng-bind="ivamaticoVM.iva.importe"></span></div>
+    </div>
+    <div>
+        <div>IVA</div>
+        <div><span ng-bind="ivamaticoVM.iva.impuesto"></span></div>
+    </div>
+    <div>
+        <div>Total</div>
+        <div><span ng-bind="ivamaticoVM.iva.total"></span></div>
+    </div>
+</section>
