@@ -1,1 +1,6 @@
-<h3 ng-bind="vm.title"></h3>
+<section>
+    <input type="number" min="0" step="0.01" ng-model="vm.importe" />
+    <div result text="'Importe a gravar'" importe="vm.importe"></div>
+    <div result text="'IVA (16%)'" importe="vm.importe * 0.16"></div>
+    <div result text="'Total con IVA'" importe="vm.importe * 1.16"></div>
+</section>
