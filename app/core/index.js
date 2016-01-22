@@ -19,3 +19,4 @@ var ivamatico = require('angular').module('ivamatico.core', [
 ]);
 
 ivamatico.config(require('./config'));
+ivamatico.constant('APP_CONSTANTS', require('./constants'));
