@@ -1,8 +1,5 @@
 <ul>
-    <li>
-        <a ui-sref="calcular">Calcular IVA</a>
-    </li>
-    <li>
-        <a ui-sref="desglosar">Desglosar IVA</a>
+    <li ng-repeat="tab in vm.tabs">
+        <a ui-sref="{{tab.state}}">{{tab.text}}</a>
     </li>
 </ul>

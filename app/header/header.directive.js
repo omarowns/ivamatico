@@ -1,6 +1,6 @@
 'use strict';
 
-HeaderDirective.$inject = ['APP_CONSTANTS'];
+HeaderDirective.$inject = ['CONSTANTS'];
 
 function HeaderDirective(CONSTANTS) {
     var directive = {
