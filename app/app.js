@@ -5,9 +5,11 @@ var angular = require('angular');
 var ivamatico = angular.module('ivamatico', [
     'ivamatico.core',
     'ivamatico.header',
-    'ivamatico.layout',
+    'ivamatico.tabs',
+    'ivamatico.calculador',
 ]);
 
 require('./core');
 require('./header');
-require('./layout');
+require('./tabs');
+require('./calculador');
